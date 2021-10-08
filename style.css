@@ -1,0 +1,44 @@
+
+body, html {
+	height: 100%;
+	margin: 20;
+	background-color: #dbecff;
+	font-family: 'Nunito Sans', sans-serif;
+	text-align: left;
+}
+			
+.paragraph {
+	position: relative;
+	top: 10%;
+	width: 80%;
+}
+
+a {
+	color: #062245;
+}
+			
+.bottom {
+    position: absolute;
+	top: 95%;
+	left: 5%;
+	text-align: left;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.main {
+	position: relative;
+	top: 5%;
+	left: 5%;
+	width: 50%;
+}
+
+.pic {
+    position: absolute;
+	top: 10%;
+	left: 60%;
+}
