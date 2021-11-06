@@ -37,8 +37,31 @@ a {
 	width: 50%;
 }
 
+.main-images {
+	position: relative;
+	top: 5%;
+	left: 5%;
+	width: 80%;
+}
+
 .pic {
     position: absolute;
 	top: 10%;
 	left: 60%;
+}
+
+ul.images {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	width: 1200px;
+	overflow-x: auto;
+}
+
+ul.images::-webkit-scrollbar {
+	display: none;
+}
+  
+ul.images li {
+	display: inline-block;
 }
