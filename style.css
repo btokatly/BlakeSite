@@ -1,6 +1,6 @@
 
 body, html {
-	height: 100%;
+	height: 90 %;
 	margin: 20;
 	background-color: #dbecff;
 	font-family: 'Nunito Sans', sans-serif;
@@ -12,15 +12,11 @@ body, html {
 	top: 10%;
 	width: 80%;
 }
-
-a {
-	color: #062245;
-}
 			
 .bottom {
     position: absolute;
-	top: 95%;
-	left: 5%;
+	top: 90%;
+	left: 10%;
 	text-align: left;
 }
 
@@ -35,6 +31,7 @@ a {
 	top: 5%;
 	left: 5%;
 	width: 50%;
+	margin-left: 50px;
 }
 
 .main-images {
@@ -65,3 +62,46 @@ ul.images::-webkit-scrollbar {
 ul.images li {
 	display: inline-block;
 }
+
+.sidenav {
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	color: #002655;
+	background-color: #dbecff;
+	overflow-x: hidden;
+	padding-top: 18px;
+	font-size: 18px;
+}
+
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #002655;
+	display: block;
+/* }
+
+.fa-home {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #002655;
+	display: block;
+}
+
+.fa-utensils {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #002655;
+	display: block;
+}
+
+.fa-camera {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: #002655;
+	display: block;
+} */
